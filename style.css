@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(238, 233, 225);
+  padding: 0px 50px 0px 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > h1 {
+  letter-spacing: 3px;
+  font-style: italic;
+  color: rgb(19, 100, 54);
+  font-weight: 900;
+  font-size: 2rem;
+}
+#nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+#nav-list > li {
+  list-style: none;
+}
+
+#nav-list > li > a {
+  text-decoration: none;
+  color: purple;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
