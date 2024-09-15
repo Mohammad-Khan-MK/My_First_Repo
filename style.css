@@ -1,11 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: rgb(238, 233, 225);
-  padding: 0px 50px 0px 50px;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 50px 50px 50px;
 }
 nav > h1 {
   letter-spacing: 3px;
@@ -13,6 +18,12 @@ nav > h1 {
   color: rgb(19, 100, 54);
   font-weight: 900;
   font-size: 2rem;
+}
+main {
+  padding: 0px 50px 0px 50px;
+}
+main > p {
+  padding-bottom: 30px;
 }
 #nav-list {
   display: flex;
@@ -29,4 +40,37 @@ nav > h1 {
   color: purple;
   font-size: 1.2rem;
   font-weight: bolder;
+}
+.ul-list {
+  padding-bottom: 20px;
+}
+#book-list > ul > li {
+  list-style: none;
+}
+
+footer {
+  padding-top: 50px;
+}
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+}
+footer > section {
+  padding: 100px 50px 100px 50px;
+  background-color: beige;
+}
+#footer-content {
+  padding-top: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-style: italic;
+  color: rgb(19, 100, 54);
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+span {
+  color: rgb(184, 35, 35);
+}
+#address {
+  padding-top: 10px;
 }
